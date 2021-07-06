@@ -1,4 +1,54 @@
-.btn{
-	
-	bottom: 15%;
+
+ /*nav and off*/
+
+
+
+.block .col {
+	max-width: 366px;
+    width: 100%;
+    height: 410px;
+    border: none;
+    border-radius: 36px;
+    box-shadow: 10px 20px 20px #EFEEFF;
+    margin-top: 98px;
+    position: relative;
+}
+.block img {
+    height: 90px;
+}
+.block .btn {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 17%, rgba(23,51,227,1) 69%);
+    border-radius: 36px;
+    margin-top: -50%;
+    position: absolute;
+    margin-left: 55%;
+
+}.btn {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 17%, rgba(23,51,227,1) 69%);
+    border-radius: 36px;
+
+}
+.col:nth-child(1),
+.col:nth-child(2),
+.col:nth-child(3) {
+    margin-bottom: 50px;
+}
+.text {
+    height: 350px;
+    
+}
+.title{
+    font-size: 20px;
+
+}
+
+form .form-control{
+    width: 350px;
+    margin-left: 30%;
+}
+form .btn-primary{
+    margin-left: 35%;
+    margin-top: -6%;
 }
